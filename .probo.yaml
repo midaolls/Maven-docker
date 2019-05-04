@@ -5,6 +5,7 @@ steps:
     script:
       - gem uninstall bundler
       - apt-get update
+      - apt-get install -y git
   - name: Install Imagemagick
     plugin: Script
     script:
